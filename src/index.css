@@ -1,0 +1,60 @@
+
+/*Variable*/
+$Blue: #009FDF;
+$Black: #0C0C0C;
+$White: #FFFCFC;
+$Grey: #EDEDED;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.App, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.app-header {
+  background-color: $Blue;
+  margin: 0;
+  padding: 20px;
+  color: $White;
+  text-align: center; 
+
+  & h1 {
+  	font-size: 3em;
+  }
+
+  & h2 {
+  	font-weight: 300;
+	font-size: 1.2em;
+  }
+}
+
+
+.date-selector {
+	text-align: center;
+
+	& p {
+		margin: 20px 0 0;
+	}
+
+	& button {
+		background-color: $Blue;
+		color: $White;
+		margin: 25px 0 0;
+		padding: 10px 20px;
+		font-size: 1.4em;
+		border: 2px solid $Black;
+		transition: all .3s ease-out;
+
+		&:hover {
+			background-color: $Grey;
+			color: $Black;
+			cursor: pointer;
+		}
+	}
+}
+
